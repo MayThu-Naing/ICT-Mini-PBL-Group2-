@@ -1,0 +1,253 @@
+/* Navigation Bar */
+    .menubar{
+        background-color: #1B3C53;
+        display: flex;
+        height: 63px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+       
+    }
+    a {
+        align-content: right;
+        display: flex;
+        text-decoration: none;
+        color: #1B3C53;
+        font: italic;
+        font-size: 25px;
+        margin: 10px;
+        color:#E3E3E3;
+        font-size: x-large;
+    }
+    a:hover {
+        color: white;
+    }
+    body {
+            background-color: #E3E3E3;
+            margin: 0px;
+            padding: 0px;
+        }
+    .links {
+            
+            display: flex;
+            font-size: larger;
+            margin-right: 5px;
+            margin-left: 5px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    .logo-img {
+        width: 55px;
+        height: 55px;
+        border-radius: 15px;
+        margin-left: 10px;
+    }
+    .logo-section {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .logo-text {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .site-title {
+        padding-top: 4px;
+        padding-left: 2px;
+        color: #E3E3E3;
+        font-size: 30px;
+    }
+
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+    }
+
+    .dropbtn {
+    background-color: rgb(61, 96, 190);
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1B3C53;
+    min-width: 200px;
+    border: 1px solid #ccc;
+    }
+
+    .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #4c7999;
+    border-radius: 10px;
+}
+body {
+    color: #1B3C53;
+    font-family:'Trebuchet MS', sans-serif;
+}
+/* Footer Section */
+            footer {
+        background-color: #1B3C53;
+        color: #E3E3E3;
+        padding: 40px 20px;
+        margin-top: 50px;
+        font-family:'Trebuchet MS', sans-serif;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-section {
+        flex: 1;
+        min-width: 200px;
+        margin: 10px;
+    }
+
+    .footer-section h3 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        color: #E3E3E3;
+        margin-top: 10px;
+    }
+
+    .footer-section p, .footer-section ul {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 8px;
+    }
+
+    .footer-section a {
+        color: #E3E3E3;
+        text-decoration: none;
+        transition: color 0.3s;
+        font-size: 15px;
+    }
+
+    .footer-section a:hover {
+        color: #bacfdd;
+    }
+
+    .signin input {
+        padding: 8px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .signin a {
+        padding: 8px 15px; 
+        margin-top: 20px;
+        background-color: #1B3C53;
+        color: #E3E3E3;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 125px;
+    }
+
+    .signin a:hover {
+        background-color: #234C6A;
+        color: #E3E3E3;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 30px;
+        border-top: 1px solid #555;
+        padding-top: 20px;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+    }
+    .footer-section img{
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+    }
+    .head img {
+        width: auto;
+        margin-left: 10px;
+    }
+    .head h2 {
+        margin-left: 10px;
+    }
+    .PublicServers ul {
+        border-left: 3px solid #1B3C53;
+        margin-left: 10px;
+    }
+    .PublicServers {
+        margin-left: 10px;
+    }
+    .PublicServers ul {
+        border-left: 3px solid #1B3C53;
+        margin-left: 10px;
+    }
+    .PrivateServers {
+        margin-left: 10px;
+    }
+    .PrivateServers ul {
+        border-left: 3px solid #1B3C53;
+        margin-left: 10px;
+    }
+    .OfficialServers {
+        margin-left: 10px;
+    }
+    .OfficialServers ul {
+        border-left: 3px solid #1B3C53;
+        margin-left: 10px;
+    }
+    .CommunityServers {
+        margin-left: 10px;
+    }
+    .CommunityServers ul {
+        border-left: 3px solid #1B3C53;
+        margin-left: 10px;
+    }
+    .CompetitiveServers {
+        margin-left: 10px;
+    }
+    .CompetitiveServers ul {
+        border-left: 3px solid #1B3C53;
+        margin-left: 10px;
+    }
+    .OfflineServers {
+        margin-left: 10px;
+    }
+    .OfflineServers ul {
+        border-left: 3px solid #1B3C53;
+        margin-left: 10px;
+    }

@@ -209,3 +209,7 @@
     .tips-section {
         margin-left: 10px;
     }
+    .tip-box {
+        background-color: #1B3C53;
+        border-radius: 10px;
+    }
